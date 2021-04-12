@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="vi" >
+<head>
+  <meta charset="UTF-8">
+    <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <title>Profile Card</title>
 
-You can use the [editor on GitHub](https://github.com/pamtrg/Introduce-yourself/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <script src="https://kit.fontawesome.com/f45daa8e40.js" crossorigin="anonymous"></script><link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+<div id="nav">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+				<div id="logo">
+					<div class="bg">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="m shadow">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="m">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
 
-### Markdown
+			</div>
+<div class="container">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="profile-container">
 
-```markdown
-Syntax highlighted code block
+      <div class="profile-wrapper">
 
-# Header 1
-## Header 2
-### Header 3
+        <div class="profile-card">
+          <div class="fav-icon">
+            <i class="far fa-heart"></i>
+          </div>
 
-- Bulleted
-- List
+          <!-- Profile-Picture -->
+      <img src="assets/img/profile-img.jpg">
 
-1. Numbered
-2. List
+      <h2>Phung Van Minh</h2>
+      <h4>Developer, Designer and Freelancer.</h4>
 
-**Bold** and _Italic_ and `Code` text
+      <p>“Ăn mừng thành công cũng tốt nhưng quan trọng hơn là phải chú ý đến những bài học của thất bại” - BILL GATES</p>
 
-[Link](url) and ![Image](src)
-```
+      <!-- Social Icons -->
+      <div class="icons">
+        <a href="https://www.facebook.com/ooedin.oo" target="blank" class="profile-fa"><i class="fab fa-facebook-f">&nbsp;Facebook</i></a>
+        <a href="https://twitter.com/modunnn" target="blank"><i class="fab fa-twitter">&nbsp;Twister</i></a>
+        <a href="https://www.instagram.com/phung.minh88/" target="blank" class="profile-in"><i class="fab fa-instagram" >&nbsp;Instagram</i></a>
+        <!--<i class="fab fa-behance"></i>
+        <a href="https://www.linkedin.com/in/ph%C3%B9ng-minh-210bb11bb/" target="blank" <i class="fab fa-linkedin-in">&nbsp;Linkedin</i></a>-->
+      </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+      <!-- Profile Button -->
+      <a href="profile.html">View Profile</a>
 
-### Jekyll Themes
+        </div>
+        
+      </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pamtrg/Introduce-yourself/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </div>
+  </div>
+<!-- partial -->
+  
+</body>
+</html>
