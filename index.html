@@ -49,6 +49,30 @@
 
           <!-- Profile-Picture -->
       <img src="assets/img/profile-img.jpg">
+      <script>
+      audio = new Audio()
+      audio.src = "xedangdithichay.mp3"
+      analyser = null
+      document.onclick = () => {
+      context = new AudioContext()
+      analyser = context.createAnalyser()
+      context.createMediaElementSource(audio)
+      .connect(analyser)
+      analyser.connect(context.destination)
+      audio.play()
+      loop()
+      }
+      function loop() {
+      window.requestAnimationFrame(loop)
+      fbc = new Uint8Array(analyser.frequencyBinCount);
+      analyser.getByteFrequencyData(fbc)
+      avg = fbc.reduce((a,b) => a + b, 0) / fbc.length
+      document.getElementById('img')
+      .style.width = avg * 5
+      document.body.style.backgroundColor =
+      'rgb('+avg+','+avg+','+avg+')'
+      }
+      </script>
 
       <h2>Phạm Trường</h2>
       <h4>Developer, Designer and Freelancer.</h4>
